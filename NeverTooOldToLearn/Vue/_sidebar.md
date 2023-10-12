@@ -14,3 +14,6 @@
 - [data是一个函数](NeverTooOldToLearn/Vue/data是一个函数)
 - [组件通信](NeverTooOldToLearn/Vue/组件通信)
 - [表单类组件封装](NeverTooOldToLearn/Vue/表单类组件封装)
+- [.sync修饰符](NeverTooOldToLearn/Vue/sync修饰符)
+- [ref 和 $refs](NeverTooOldToLearn/Vue/ref和$refs)
+- [$nextTick](NeverTooOldToLearn/Vue/nextTick)

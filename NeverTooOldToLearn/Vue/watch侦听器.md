@@ -30,7 +30,7 @@
 
 <script>
 	const app = new Vue({
-		el: '#app'，
+		el: '#app',
 		data: {
 			// words: ''
 			obj: {
@@ -43,7 +43,7 @@
 		// 具体讲解：(1) watch语法 (2) 具体业务实现
 		watch: {
 			// 该方法会在数据变化时调用执行
-			// newValue新值，oldValue老值(一般不用)
+			// newValue新值,oldValue老值(一般不用)
 
 			// words (newValue, oldValue) {
 			// 	console.log("变化了", newValue, oldValue);
@@ -109,7 +109,7 @@
 
 <script>
 	const app = new Vue({
-		el: '#app'，
+		el: '#app',
 		data: {
 			obj: {
 				words: '',
