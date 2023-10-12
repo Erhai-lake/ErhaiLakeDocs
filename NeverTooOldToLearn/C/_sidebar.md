@@ -1,0 +1,6 @@
+- 初识
+  - [什么是C语言](NeverTooOldToLearn/C/什么是C语言)
+  - [第一个C语言项目](NeverTooOldToLearn/C/第一个C语言项目)
+  - [数据类型](NeverTooOldToLearn/C/数据类型)
+  - [变量-常量-局部变量-全局变量](NeverTooOldToLearn/C/变量-常量-局部变量-全局变量)
+  - [字符串](NeverTooOldToLearn/C/字符串)

@@ -1,0 +1,920 @@
+/* Erhai_lake_UI */
+/* 按钮 */
+/* 名称:洱海UI库 */
+/* 作者:洱海工作室 */
+
+/* 按钮类 */
+
+/* 按钮主题 */
+
+/* 默认按钮 */
+.ErhaiLakeUI-btn {
+    display: inline-block;
+    line-height: 38px;
+    /* 高度 */
+    height: 38px;
+    /* 填充 */
+    padding: 0 18px;
+    /* 描边 */
+    border: 1px #d2d2d2 solid;
+    /* 背景颜色 */
+    background: #fff;
+    /* 字体颜色 */
+    color: #333;
+    /* 圆角 */
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    /* 过度 */
+    transition: all 0.15s;
+    -webkit-transition: all 0.15s;
+    -moz-transition: all 0.15s;
+    -ms-transition: all 0.15s;
+    -o-transition: all 0.15s;
+    /* 指针状态 */
+    cursor: pointer;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+}
+
+.ErhaiLakeUI-btn:hover {
+    /* 描边 */
+    border: 1px #80CEFF solid;
+    /* 透明 */
+    opacity: .8;
+}
+
+/* 官方按钮 */
+.ErhaiLakeUI-btn-official {
+    /* 描边 */
+    border: 1px transparent solid;
+    /* 背景颜色 */
+    background: #80CEFF;
+    /* 字体颜色 */
+    color: #ffffff;
+}
+
+.ErhaiLakeUI-btn-official:hover {
+    /* 描边 */
+    border: 1px transparent solid;
+}
+
+.ErhaiLakeUI-btn-official:active {
+    /* 透明 */
+    opacity: 1;
+}
+
+/* 提示按钮 */
+.ErhaiLakeUI-btn-tooltip {
+    /* 描边 */
+    border: 1px transparent solid;
+    /* 背景颜色 */
+    background: #ffb800;
+    /* 字体颜色 */
+    color: #ffffff;
+}
+
+.ErhaiLakeUI-btn-tooltip:hover {
+    /* 描边 */
+    border: 1px transparent solid;
+}
+
+.ErhaiLakeUI-btn-tooltip:active {
+    /* 透明 */
+    opacity: 1;
+}
+
+/* 警告按钮 */
+.ErhaiLakeUI-btn-warn {
+    /* 描边 */
+    border: 1px transparent solid;
+    /* 背景颜色 */
+    background: #FF6230;
+    /* 字体颜色 */
+    color: #ffffff;
+}
+
+.ErhaiLakeUI-btn-warn:hover {
+    /* 描边 */
+    border: 1px transparent solid;
+}
+
+.ErhaiLakeUI-btn-warn:active {
+    /* 透明 */
+    opacity: 1;
+}
+
+/* 禁止按钮 */
+.ErhaiLakeUI-btn-prohibit {
+    /* 背景颜色 */
+    background: #FBFBFB;
+    /* 字体颜色 */
+    color: #d2d2d2;
+    /* 指针状态 */
+    cursor: not-allowed;
+}
+
+.ErhaiLakeUI-btn-prohibit:hover {
+    /* 描边 */
+    border: 1px #d2d2d2 solid;
+}
+
+/* 官方按钮-描边 */
+.ErhaiLakeUI-btn-official-border {
+    /* 描边 */
+    border: 1px #80CEFF solid;
+    /* 字体颜色 */
+    color: #80CEFF;
+}
+
+.ErhaiLakeUI-btn-official-border:active {
+    /* 描边 */
+    border: 1px #80CEFF solid;
+    /* 透明 */
+    opacity: 1;
+}
+
+/* 提示按钮-描边 */
+.ErhaiLakeUI-btn-tooltip-border {
+    /* 描边 */
+    border: 1px #ffb800 solid;
+    /* 字体颜色 */
+    color: #ffb800;
+}
+
+.ErhaiLakeUI-btn-tooltip-border:hover {
+    /* 描边 */
+    border: 1px #ffb800 solid;
+}
+
+.ErhaiLakeUI-btn-tooltip-border:active {
+    /* 描边 */
+    border: 1px #ffb800 solid;
+    /* 透明 */
+    opacity: 1;
+}
+
+/* 警告按钮-描边 */
+.ErhaiLakeUI-btn-warn-border {
+    /* 描边 */
+    border: 1px #FF6230 solid;
+    /* 字体颜色 */
+    color: #FF6230;
+}
+
+.ErhaiLakeUI-btn-warn-border:hover {
+    /* 描边 */
+    border: 1px #FF6230 solid;
+}
+
+.ErhaiLakeUI-btn-warn-border:active {
+    /* 描边 */
+    border: 1px #FF6230 solid;
+    /* 透明 */
+    opacity: 1;
+}
+
+/* 深色按钮 */
+.ErhaiLakeUI-btn-deep {
+    /* 描边 */
+    border: 1px #2f363c solid;
+    /* 字体颜色 */
+    color: #2f363c;
+}
+
+.ErhaiLakeUI-btn-deep:hover {
+    /* 描边 */
+    border: 1px #2f363c solid;
+}
+
+.ErhaiLakeUI-btn-deep:active {
+    /* 描边 */
+    border: 1px #2f363c solid;
+    /* 透明 */
+    opacity: 1;
+}
+
+
+/* 按钮尺寸 */
+
+/* 大型 */
+.ErhaiLakeUI-btn-large {
+    /* 高度 */
+    height: 44px;
+    line-height: 44px;
+    /* 填充 */
+    padding: 0 25px;
+    /* 字体大小 */
+    font-size: 16px;
+}
+
+/* 小型 */
+.ErhaiLakeUI-btn-small {
+    /* 高度 */
+    height: 30px;
+    line-height: 30px;
+    /* 填充 */
+    padding: 0 10px;
+    /* 字体大小 */
+    font-size: 12px;
+}
+
+/* 迷你 */
+.ErhaiLakeUI-btn-mini {
+    /* 高度 */
+    height: 22px;
+    line-height: 22px;
+    /* 填充 */
+    padding: 0 5px;
+    /* 字体大小 */
+    font-size: 12px;
+}
+
+/* 圆角按钮 */
+.ErhaiLakeUI-btn-radius {
+    /* 圆角 */
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+/* 自适应按钮 */
+.ErhaiLakeUI-btn-fluid {
+    width: 100%;
+}
+
+/* 按钮容器 */
+.ErhaiLakeUI-btn-container {
+    /* 间隔 */
+    word-spacing: -5px;
+}
+
+.ErhaiLakeUI-btn-container .ErhaiLakeUI-btn {
+    /* 边距 */
+    margin: 10px;
+}
+
+/* 按钮组合 */
+.ErhaiLakeUI-btn-group {
+    /* 宽度 */
+    width: 100%;
+    margin: 5px 0;
+    display: inline-block;
+    vertical-align: middle;
+    /*字体大小*/
+    font-size: 0;
+}
+
+.ErhaiLakeUI-btn-group .ErhaiLakeUI-btn {
+    /* 圆角 */
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.ErhaiLakeUI-btn-group .ErhaiLakeUI-btn:first-child {
+    /*圆角*/
+    border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    -ms-border-radius: 3px 0 0 3px;
+    -o-border-radius: 3px 0 0 3px;
+}
+
+.ErhaiLakeUI-btn-group .ErhaiLakeUI-btn:last-child {
+    /*圆角*/
+    border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -ms-border-radius: 0 3px 3px 0;
+    -o-border-radius: 0 3px 3px 0;
+}
+
+/* 特殊按钮1-默认蓝色 */
+.ErhaiLakeUI-btn-special1 {
+    padding: 0 18px;
+    height: 38px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: 1px transparent solid;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.ErhaiLakeUI-btn-special1:hover {
+    background-color: #80CEFF;
+    box-shadow: 0px 15px 20px #80CEFF66;
+    color: #fff;
+    transform: translateY(-7px);
+    border: 1px transparent solid;
+    -webkit-transform: translateY(-7px);
+    -moz-transform: translateY(-7px);
+    -ms-transform: translateY(-7px);
+    -o-transform: translateY(-7px);
+}
+
+.ErhaiLakeUI-btn-special1:active {
+    transform: translateY(-1px);
+    border: 1px transparent solid;
+}
+
+/* 特殊按钮1-绿色 */
+.ErhaiLakeUI-btn-special1-green:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px #23c48366;
+}
+
+/* 特殊按钮1-黄色 */
+.ErhaiLakeUI-btn-special1-yellow:hover {
+    background-color: #FFB800;
+    box-shadow: 0px 15px 20px #FFB80066;
+}
+
+/* 特殊按钮1-红色 */
+.ErhaiLakeUI-btn-special1-red:hover {
+    background-color: #FF6230;
+    box-shadow: 0px 15px 20px #FF623066;
+}
+
+/* 图标类 */
+.ErhaiLakeUI-icon {
+    font-family: "ErhaiLakeUI-icon" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.baobiao:before {
+    content: "\e6a9";
+}
+
+.gonggaoguanli:before {
+    content: "\e6ac";
+}
+
+.huodong:before {
+    content: "\e6ad";
+}
+
+.jiekouzhushou:before {
+    content: "\e6ae";
+}
+
+.ruzhuguanli:before {
+    content: "\e6af";
+}
+
+.xitongzujian:before {
+    content: "\e6b2";
+}
+
+.zhishiku:before {
+    content: "\e6b5";
+}
+
+.zaixiangoutong:before {
+    content: "\e6b6";
+}
+
+.URLguanli:before {
+    content: "\e6b7";
+}
+
+.cuowu:before {
+    content: "\e6bb";
+}
+
+.jiebang:before {
+    content: "\e6c2";
+}
+
+.nan:before {
+    content: "\e6c4";
+}
+
+.pifu:before {
+    content: "\e6c5";
+}
+
+.kongzhitaiSQL:before {
+    content: "\e6c3";
+}
+
+.nv:before {
+    content: "\e6c6";
+}
+
+.shanchutuandui:before {
+    content: "\e6c7";
+}
+
+.tianjiatuandui:before {
+    content: "\e6c9";
+}
+
+.xihuan:before {
+    content: "\e6cc";
+}
+
+.wenjianjiashitu:before {
+    content: "\e6cd";
+}
+
+.wenjianjia:before {
+    content: "\e6ce";
+}
+
+.xinjianwenjianjia:before {
+    content: "\e6cf";
+}
+
+.zhuzhuangtu:before {
+    content: "\e6d5";
+}
+
+.braces-fill:before {
+    content: "\e77f";
+}
+
+.brackets-fill:before {
+    content: "\e780";
+}
+
+.code-line:before {
+    content: "\e781";
+}
+
+.bug-fill:before {
+    content: "\e782";
+}
+
+.code-s-slash-line:before {
+    content: "\e783";
+}
+
+.terminal-box-line:before {
+    content: "\e787";
+}
+
+.ditu:before {
+    content: "\e632";
+}
+
+.fuzhi:before {
+    content: "\e63f";
+}
+
+.maijiafabuxuqiu:before {
+    content: "\e648";
+}
+
+.ok-ring:before {
+    content: "\e6fa";
+}
+
+.exclamation-point-ring:before {
+    content: "\e6fb";
+}
+
+.info-ring:before {
+    content: "\e6fc";
+}
+
+.close-ring:before {
+    content: "\e6fd";
+}
+
+.question-mark-ring:before {
+    content: "\e6fe";
+}
+
+.rizhichaxun:before {
+    content: "\e629";
+}
+
+.shangyibu:before {
+    content: "\e62a";
+}
+
+.a-shouqijianhao:before {
+    content: "\e62b";
+}
+
+.shouye:before {
+    content: "\e62c";
+}
+
+.a-tianjiakuozhan:before {
+    content: "\e62d";
+}
+
+.tonghangchaxun:before {
+    content: "\e62e";
+}
+
+.weixuanze:before {
+    content: "\e62f";
+}
+
+.xiayibu:before {
+    content: "\e630";
+}
+
+.xiangxia:before {
+    content: "\e631";
+}
+
+.xiangshang:before {
+    content: "\e633";
+}
+
+.xuanzhong:before {
+    content: "\e634";
+}
+
+.yonghubianji:before {
+    content: "\e635";
+}
+
+.yonghuxinxi:before {
+    content: "\e636";
+}
+
+.yonghutianjia:before {
+    content: "\e637";
+}
+
+.yonghushouquan:before {
+    content: "\e638";
+}
+
+.zuihou:before {
+    content: "\e639";
+}
+
+.zuiqian:before {
+    content: "\e63a";
+}
+
+.wdyc-copy:before {
+    content: "\e63b";
+}
+
+.c004youjian:before {
+    content: "\e602";
+}
+
+.c089tuichu:before {
+    content: "\e606";
+}
+
+.arrow-downjiantou-xia3:before {
+    content: "\e848";
+}
+
+.arrow-left-downjiantou-zuoxia:before {
+    content: "\e849";
+}
+
+.arrow-right-topjiantou-youshang:before {
+    content: "\e84a";
+}
+
+.arrow-topzhiding:before {
+    content: "\e84b";
+}
+
+.rili:before {
+    content: "\e860";
+}
+
+.tansuo:before {
+    content: "\e862";
+}
+
+.shuju2:before {
+    content: "\e863";
+}
+
+.yasuobao:before {
+    content: "\e865";
+}
+
+.yinpinwenjian:before {
+    content: "\e866";
+}
+
+.yulan2:before {
+    content: "\e867";
+}
+
+.zhushi:before {
+    content: "\e868";
+}
+
+.translate-2:before {
+    content: "\eb94";
+}
+
+.danxuankuang-weixuanzhong:before {
+    content: "\e600";
+}
+
+.danxuankuang-xuanzhong:before {
+    content: "\e601";
+}
+
+.duihuakuang-chenggong:before {
+    content: "\e603";
+}
+
+.duihuakuang-cuowu:before {
+    content: "\e604";
+}
+
+.duihuakuang-jinggao:before {
+    content: "\e605";
+}
+
+.duihuakuang-xinxi:before {
+    content: "\e607";
+}
+
+.duihuakuang-xunwen:before {
+    content: "\e608";
+}
+
+.fuxuankuang-weixuan:before {
+    content: "\e609";
+}
+
+.fuxuankuang-wuxiao:before {
+    content: "\e60a";
+}
+
+.fuxuankuang-xuanzhong:before {
+    content: "\e60b";
+}
+
+.jiance-erweima:before {
+    content: "\e60c";
+}
+
+.jiance-tiaoxingma:before {
+    content: "\e60d";
+}
+
+.a-quanbuxiaoxiiconbeifen3x:before {
+    content: "\e60e";
+}
+
+.a-218xiazaidaorubeifen3x:before {
+    content: "\e60f";
+}
+
+.a-daochuiconbeifen3x:before {
+    content: "\e610";
+}
+
+.sync:before {
+    content: "\e611";
+}
+
+.reload:before {
+    content: "\e612";
+}
+
+.a-caozuorizhi3x:before {
+    content: "\e614";
+}
+
+.a-1:before {
+    content: "\e616";
+}
+
+.ErhaiLakeLogo:before {
+    content: "\e613";
+}
+
+.fasong:before {
+    content: "\e624";
+}
+
+.bianji:before {
+    content: "\e625";
+}
+
+.fujian:before {
+    content: "\e626";
+}
+
+.gaojing:before {
+    content: "\e627";
+}
+
+.gouwu:before {
+    content: "\e628";
+}
+
+.kejian:before {
+    content: "\e63c";
+}
+
+.bukejian:before {
+    content: "\e63d";
+}
+
+.mima:before {
+    content: "\e63e";
+}
+
+.dingwei:before {
+    content: "\e640";
+}
+
+.shijian:before {
+    content: "\e641";
+}
+
+.shanchu:before {
+    content: "\e642";
+}
+
+.shipin:before {
+    content: "\e643";
+}
+
+.tupian:before {
+    content: "\e644";
+}
+
+.shousuo:before {
+    content: "\e645";
+}
+
+.sousuo:before {
+    content: "\e646";
+}
+
+.denglu:before {
+    content: "\e647";
+}
+
+.neirong:before {
+    content: "\e649";
+}
+
+.shuaxin:before {
+    content: "\e64a";
+}
+
+.zhanghao:before {
+    content: "\e64b";
+}
+
+.shaixuan:before {
+    content: "\e64c";
+}
+
+.wendang:before {
+    content: "\e64d";
+}
+
+.zhankai:before {
+    content: "\e64e";
+}
+
+.shezhi:before {
+    content: "\e64f";
+}
+
+.xiaoxi:before {
+    content: "\e650";
+}
+
+.wancheng:before {
+    content: "\e651";
+}
+
+/* 表单类 */
+
+/* 输入框 */
+.ErhaiLakeUI-form-text {
+    width: 100%;
+    height: 38px;
+    background: #fff;
+    border: 1px #EEEEEE solid;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #000000d9;
+    outline: none;
+    transition: all 0.15s;
+    -webkit-transition: all 0.15s;
+    -moz-transition: all 0.15s;
+    -ms-transition: all 0.15s;
+    -o-transition: all 0.15s;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Microsoft YaHei';
+}
+
+.ErhaiLakeUI-form-text:focus {
+    border: 1px #D2D2D2 solid;
+}
+
+/* 多行文本框 */
+.ErhaiLakeUI-form-textarea {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border: 1px #EEEEEE solid;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #000000d9;
+    outline: none;
+    transition: all 0.15s;
+    -webkit-transition: all 0.15s;
+    -moz-transition: all 0.15s;
+    -ms-transition: all 0.15s;
+    -o-transition: all 0.15s;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    letter-spacing: 1px;
+    resize: vertical;
+    font-family: 'Microsoft YaHei';
+}
+
+.ErhaiLakeUI-form-textarea:focus {
+    border: 1px #D2D2D2 solid;
+}
+
+/* 输入框组合 */
+.ErhaiLakeUI-form-text-group {
+    /* 宽度 */
+    width: 100%;
+    display: flex;
+}
+
+.ErhaiLakeUI-form-text-group .ErhaiLakeUI-form-text {
+    width: 0;
+    height: auto;
+    /* 宽度 */
+    flex-grow: 1;
+}
+
+/* 前后缀 */
+.ErhaiLakeUI-form-text-prefix,
+.ErhaiLakeUI-form-text-suffix {
+    font-size: 14px;
+    line-height: 38px;
+    padding: 0 10px;
+    border: 1px #EEEEEE solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ErhaiLakeUI-form-text-prefix .ErhaiLakeUI-btn,
+.ErhaiLakeUI-form-text-suffix .ErhaiLakeUI-btn {
+    padding: 0;
+    border: 1px transparent solid;
+}
+
+.ErhaiLakeUI-form-text-prefix .ErhaiLakeUI-btn:hover,
+.ErhaiLakeUI-form-text-suffix .ErhaiLakeUI-btn:hover {
+    border: 1px transparent solid;
+}
+
+/* 分割 */
+.ErhaiLakeUI-form-hr {
+    border: 0;
+    margin: 8px 0;
+}
+
+/* 表单容器 */
+.ErhaiLakeUI-form-container {
+    padding: 15px;
+}
