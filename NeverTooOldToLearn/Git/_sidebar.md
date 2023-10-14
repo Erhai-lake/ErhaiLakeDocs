@@ -1,3 +1,6 @@
 - [介绍](NeverTooOldToLearn/Git/介绍)
 - [安装配置](NeverTooOldToLearn/Git/安装配置)
 - [工作流](NeverTooOldToLearn/Git/工作流)
+- [Git分支类型](NeverTooOldToLearn/Git/Git分支类型)
+- [Git日志规范](NeverTooOldToLearn/Git/Git日志规范)
+- [GitFlow工作流](NeverTooOldToLearn/Git/GitFlow工作流)
